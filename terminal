@@ -1,0 +1,69 @@
+
+XMacBook-Pro:papka ksm2l$ pwd
+/Users/user/documents/qa_courses/papka
+XMacBook-Pro:papka ksm2l$ ls
+XMacBook-Pro:papka ksm2l$ cd ..
+XMacBook-Pro:qa_courses ksm2l$ ls
+file.json	file.txt	papka
+XMacBook-Pro:qa_courses ksm2l$ cd papka
+XMacBook-Pro:papka ksm2l$ mkdir podpapka
+XMacBook-Pro:papka ksm2l$ ls
+podpapka
+XMacBook-Pro:papka ksm2l$ cd ../ ..
+XMacBook-Pro:qa_courses ksm2l$ pwd
+/Users/user/documents/qa_courses
+XMacBook-Pro:qa_courses ksm2l$ cd qa_courses
+-bash: cd: qa_courses: No such file or directory
+XMacBook-Pro:qa_courses ksm2l$ pwd
+/Users/user/documents/qa_courses
+XMacBook-Pro:qa_courses ksm2l$ ls
+file.json	file.txt	papka
+XMacBook-Pro:qa_courses ksm2l$ mv file.txt podpapka
+XMacBook-Pro:qa_courses ksm2l$ mv gile.json podpapka
+mv: gile.json: No such file or directory
+XMacBook-Pro:qa_courses ksm2l$ mv file.json podpapka
+XMacBook-Pro:qa_courses ksm2l$ pwd
+/Users/user/documents/qa_courses
+XMacBook-Pro:qa_courses ksm2l$ ls
+papka		podpapka
+XMacBook-Pro:qa_courses ksm2l$ podpapka
+-bash: podpapka: command not found
+XMacBook-Pro:qa_courses ksm2l$ cd podpapka
+-bash: cd: podpapka: Not a directory
+XMacBook-Pro:qa_courses ksm2l$ pwd
+/Users/user/documents/qa_courses
+XMacBook-Pro:qa_courses ksm2l$ ls
+papka		podpapka
+XMacBook-Pro:qa_courses ksm2l$ cd podpapka
+-bash: cd: podpapka: Not a directory
+XMacBook-Pro:qa_courses ksm2l$ cd papka
+XMacBook-Pro:papka ksm2l$ ls
+podpapka
+XMacBook-Pro:papka ksm2l$ cd podpapka
+XMacBook-Pro:podpapka ksm2l$ ls
+XMacBook-Pro:podpapka ksm2l$ ls
+XMacBook-Pro:podpapka ksm2l$ cd ../ ..
+XMacBook-Pro:papka ksm2l$ ls
+podpapka
+XMacBook-Pro:papka ksm2l$ pwd
+/Users/user/documents/qa_courses/papka
+XMacBook-Pro:papka ksm2l$ cd ../.. 
+XMacBook-Pro:documents ksm2l$ pwd
+/Users/user/documents
+XMacBook-Pro:documents ksm2l$ cd qa_courses
+XMacBook-Pro:qa_courses ksm2l$ rm -r podpapka
+XMacBook-Pro:qa_courses ksm2l$ ls
+papka
+XMacBook-Pro:qa_courses ksm2l$ touch file.txt
+XMacBook-Pro:qa_courses ksm2l$ ls
+file.txt	papka
+XMacBook-Pro:qa_courses ksm2l$ touch file.json
+XMacBook-Pro:qa_courses ksm2l$ ls
+file.json	file.txt	papka
+XMacBook-Pro:qa_courses ksm2l$ rm file.tt
+rm: file.tt: No such file or directory
+XMacBook-Pro:qa_courses ksm2l$ mv file.txt podpapka
+XMacBook-Pro:qa_courses ksm2l$ ls
+file.json	papka		podpapka
+XMacBook-Pro:qa_courses ksm2l$ mv podpapka file.txt
+XMacBook-Pro:qa_courses ksm2l$ 
