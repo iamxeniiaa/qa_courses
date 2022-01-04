@@ -1,1 +1,2 @@
 Add this line for the first time
+Add this line for the second time in terminal
